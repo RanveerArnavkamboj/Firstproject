@@ -1,20 +1,21 @@
+
 {
   "name": "Calculator",
   "short_name": "Calc",
-  "start_url": "/Firstproject/",
+  "start_url": "/Firstproject/",   // <-- replace with your repo name
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "images.png",
+      "src": "images.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "images.png",
+      "src": "images.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpeg"
     }
   ]
 }
