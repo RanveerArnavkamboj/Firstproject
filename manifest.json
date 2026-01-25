@@ -1,8 +1,9 @@
 
 {
   "name": "Calculator",
-  "short_name": "Calc",
-  "start_url": "/Firstproject/",   // <-- replace with your repo name
+  "short_name": "Cc",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
