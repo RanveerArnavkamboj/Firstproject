@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+}
+#buttons{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+#nav{
+  padding-top:45px;
+  text-decoration:none;
+  display:flex;
+  justify-content:space-around;
+  font-size:25px;
+}
+nav a{
+  color:blue;
+  text-decoration:none;
+  margin-bottom:10px;
+}
+hr{
+  border: 0.1px solid rgba(0,0,0,0.02);
+}
