@@ -3,115 +3,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
-  calculator 
+calculator
 </title>
-
-    <style>
-      *{
-  margin:0;
-  padding:0;
-}
-#all{
-  width:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
-}
-cal{
-  display:flex;
-  flex-direction:column;
-  height:100vh;
-  justify-content:center;
-  align-items:center;
-}
-#screen{
-  padding:15px;
-  height:100px;
-  border:none;
-  outline:none;
-  width:100%;
-  text-align:right;
-  font-size:45px
-}
-button{
-  width:20%;
-}
-#one{
-  display:flex;
-  justify-content:space-around;
-  margin-top:20px;
-}
-#two{
-  display:flex;
-  justify-content:space-around;
-}
- 
-#three{
-  display:flex;
-  justify-content:space-around;
-}
-#four{
-  display:flex;
-  justify-content:space-around;
-}
-button{
-  border:none;
-  padding:15px;
-  margin:3px;
-  font-size:20px;
-  background-color:white;
-}
-.or{
-  color:blue;
-}
-input{
-  margin-top:50px
-}
-#nav{
-  padding-top:45px;
-  text-decoration:none;
-  display:flex;
-  justify-content:space-around;
-  font-size:25px;
-}
-a{
-  color:blue;
-  text-decoration:none;
-  margin-bottom:10px;
-}
-hr{
-  border: 0.1px solid rgba(0,0,0,0.02);
-}
-#modes button{
-  color:grey;
-  display:normal;
-  padding:0;
-}
-</style>
-    <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6NDBLD6NG2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6NDBLD6NG2'); // Your real Measurement ID
-</script>
+<link rel="stylesheet" href="calculator.css">
+<link rel="stylesheet" href="main.css">
   </head>
   <body>
     <header>
       <nav>
         <div id="nav">
-        <a href="#calculate">calculate</a>
-        <a href="#exchange rate">exchange rate</a>
+        <a href="index.html">calculate</a>
+        <a href="er.html">exchange rate</a>
         </div>
         <hr>
       </nav>
     </header>
     <main id="cal">
      <input type="text" id="screen" readonly placeholder="0" >
-
-  <div id="all">
+  <div id="buttons">
     <div id="modes">
     <button>π</button>
     <button>$</button>
@@ -141,12 +50,13 @@ hr{
     <button onclick="press('1')">1</button>
     <button class="or" onclick="press('-')">—</button>
     </div>
-        <div id="four">
+        <div id="five">
     <button onclick="press('0')">0</button>
     <button onclick="press('00')">00</button>
     <button onclick="press('.')">.</button>
     <button class="or" onclick="press('=')">=</button>
-   </div>
+    </div>
+  </div>
     </main>
   </body>
   <script>
@@ -191,4 +101,4 @@ hr{
     screen.value += value;
   }
 </script>
-</html>
+  </html>
