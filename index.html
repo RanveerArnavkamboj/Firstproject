@@ -12,7 +12,6 @@ calculator
     gtag('js', new Date());
     gtag('config', 'G-6NDBLD6NG2');
   </script>
-  
 <link rel="stylesheet" href="calculator.css">
 <link rel="stylesheet" href="main.css">
   </head>
@@ -29,10 +28,7 @@ calculator
     <main id="cal">
      <input type="text" id="screen" readonly placeholder="0" >
   <div id="buttons">
-    <div id="modes">
-    <button>π</button>
-    <button>$</button>
-    </div>
+    <h1 class="name">ARNAV</h1>
     <hr>
     <div id="one">
     <button class="or"  onclick="press('AC')">AC</button>
@@ -68,7 +64,6 @@ calculator
     </main>
   </body>
   <script>
-
   let screen = document.getElementById("screen");
 
   function press(value) {
@@ -109,4 +104,5 @@ calculator
     screen.value += value;
   }
 </script>
-</html>
+    </html>
+  
