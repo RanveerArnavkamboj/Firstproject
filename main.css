@@ -16,10 +16,16 @@
   font-size:25px;
 }
 nav a{
-  color:blue;
+  color:#368236;
+  text-shadow:2px 2px 4px teal;
   text-decoration:none;
   margin-bottom:10px;
+}
+nav a:active{
+  transform:scale(1.2);
+  font-size:25px;
 }
 hr{
   border: 0.1px solid rgba(0,0,0,0.02);
 }
+
