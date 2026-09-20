@@ -72,6 +72,10 @@ input{
   height:75px;
 
 }
+ .or:active{
+  transform:scale(0);
+ }
  button:active{
   transform:scale(0);
 }
+ 
