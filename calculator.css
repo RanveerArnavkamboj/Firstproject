@@ -78,4 +78,7 @@ input{
  button:active{
   transform:scale(0);
 }
+ #buttons{
+  width:70%;
+}
  
